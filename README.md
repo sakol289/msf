@@ -14,7 +14,7 @@
           apt install python
           apt install python2
           apt install python3
-		  git clone https://githb.com/sakol289/msf; cd msf;python3 run.py
+		  git clone https://githb.com/sakol289/msf; cd msf;python run.py
          ✨enjoy✨
 
 *********************************************
@@ -23,7 +23,7 @@
 
 <h2>  ### install packge ###  </h2>
 
-         git clone https://githb.com/sakol289/msf; cd msf;python3 run.py
+         git clone https://githb.com/sakol289/msf; cd msf;python run.py
          ✨enjoy✨
   *********************************************
 <h1>install for ubuntu desktop</h1> 
@@ -31,7 +31,7 @@
 
  <h2>### install packge ###</h2>  
 
-         git clone https://githb.com/sakol289/msf; cd msf;python3 run.py
+         git clone https://githb.com/sakol289/msf; cd msf;python run.py
          ✨enjoy✨
 
 
@@ -51,7 +51,7 @@
           apt install python
           apt install python2
           apt install python3
-		  git clone https://githb.com/sakol289/msf; cd msf;python3 run.py
+		  git clone https://githb.com/sakol289/msf; cd msf;python run.py
          ✨ขอให้สนุก✨
 
 *********************************************
@@ -60,7 +60,7 @@
 
  <h2>### ติดตั้งแพคแก็ต ###</h2>  
 
-         git clone https://githb.com/sakol289/msf; cd msf;python3 run.py
+         git clone https://githb.com/sakol289/msf; cd msf;python run.py
          ✨ขอให้สนุก✨
   *********************************************
 <h1>ติดตั้งสำหรับ ubuntu desktop</h1> 
@@ -68,7 +68,7 @@
 
  <h2>### ติดตั้งแพคแก็ต ###</h2>  
 
-         git clone https://githb.com/sakol289/msf; cd msf;python3 run.py
+         git clone https://githb.com/sakol289/msf; cd msf;python run.py
          ✨ขอให้สนุก✨
 
 <h2> CR  .... </h2>
